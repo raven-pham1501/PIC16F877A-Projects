@@ -1,0 +1,6 @@
+_build/
+out/
+cmake/
+
+# Machine-specific MPLAB hardware selection and programmer serial number.
+.vscode/*-local.json
