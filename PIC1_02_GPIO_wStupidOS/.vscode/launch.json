@@ -1,0 +1,31 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+
+    {
+      // Note: Properties here can override MPLAB project settings
+      "name": "Launch PIC16F877A_Dev_OS: default",
+      "type": "mplab-core-da",
+      "request": "launch",
+      "project": "PIC16F877A_Dev_OS",
+      "configuration": "default",
+      "stopOnEntry": false,
+      "preLaunchTask": "PIC16F877A_Dev_OS: default - Build",
+      "program": "${workspaceFolder}/out/PIC16F877A_Dev_OS/default.elf"
+    },
+    {
+      // Note: Properties here can override MPLAB project settings
+      "name": "Program PIC16F877A_Dev_OS: default - Production",
+      "type": "mplab-core-da",
+      "request": "launch",
+      "project": "PIC16F877A_Dev_OS",
+      "configuration": "default",
+      "noDebug": true,
+      "preLaunchTask": "PIC16F877A_Dev_OS: default - Build (Production)",
+      "program": "${workspaceFolder}/out/PIC16F877A_Dev_OS/production/default-production.hex"
+    }
+  ]
+}
