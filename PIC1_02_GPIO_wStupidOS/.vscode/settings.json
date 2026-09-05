@@ -1,0 +1,25 @@
+{
+    "mplab.clangd.compileCommandsDir": "${workspaceFolder}\\_build\\PIC16F877A_Dev_OS\\default",
+    "mplab.clangd.arguments": [
+        "--header-insertion=never",
+        "--pch-storage=memory"
+    ],
+    "mplab.clangd.path": "c:\\Program Files\\Microchip\\xc8\\v3.10\\bin\\xc8-clangd.exe",
+
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "C_Cpp.errorSquiggles": "disabled",
+    "C_Cpp.autocomplete": "disabled",
+    "C_Cpp.formatting": "disabled",
+    "C_Cpp.codeAnalysis.runAutomatically": false,
+    "C_Cpp.suggestSnippets": false,
+    "[c]": {
+        "editor.suggest.showWords": false
+    },
+    "memory-inspector.debugTypes": [
+        "arm-debugger",
+        "embedded-debug",
+        "gdb",
+        "mplab-core-da"
+    ],
+    "cmake.sourceDirectory": "${workspaceFolder}/cmake/PIC16F877A_Dev_OS/default"
+}
